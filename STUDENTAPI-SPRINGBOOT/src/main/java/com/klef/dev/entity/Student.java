@@ -27,7 +27,7 @@ public class Student {
 	private String email;
 	@Column(name = "student_password", nullable = false, length = 50)
 	private String password;
-	@Column(name = "student_contact", nullable = false, unique = true, length = 20)
+	@Column(name = "student_contact", nullable = false, unique = true, length = 20)     // contact should be string because it is long
 	private String contact;
 	
 	public int getId() {

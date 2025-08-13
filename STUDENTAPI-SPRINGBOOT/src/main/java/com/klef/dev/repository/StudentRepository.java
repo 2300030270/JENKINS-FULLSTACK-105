@@ -7,6 +7,6 @@ import com.klef.dev.entity.Student;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Integer> 
 {
-    Student findByEmail(String email);
+    Student findByEmail(String email);         // these two are unique
     Student findByContact(String contact);
 }

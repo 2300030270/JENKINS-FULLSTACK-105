@@ -12,7 +12,7 @@ import com.klef.dev.service.StudentService;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-@RequestMapping("/studentapi/")
+@RequestMapping("/studentapi/")    // applied to class level i.e applied to all 
 @CrossOrigin(origins = "*")
 public class StudentController {
 
